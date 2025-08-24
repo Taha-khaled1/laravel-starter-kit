@@ -1,0 +1,61 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home",
+      "routeName": "index",
+      "type": [
+        "user",
+        "admin",
+        "supervisor"
+      ]
+    },
+    {
+      "url": "users",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "name": "Users",
+      "slug": "users",
+      "routeName": "users.index",
+      "type": [
+        "admin",
+        "supervisor"
+      ]
+    },
+    {
+      "url": "contact-us",
+      "icon": "menu-icon tf-icons ti ti-address-book",
+      "name": "contact-us",
+      "slug": "contact-us",
+      "routeName": "contact-us.index",
+      "type": [
+        "admin",
+        "supervisor"
+      ]
+    },
+    {
+      "url": "pages",
+      "icon": "menu-icon tf-icons ti ti-wallpaper",
+      "name": "Pages",
+      "slug": "pages",
+      "routeName": "pages.index",
+      "type": [
+        "admin",
+        "supervisor"
+      ]
+    },
+    {
+      "url": "countries",
+      "icon": "menu-icon tf-icons ti ti-wallpaper",
+      "name": "countries",
+      "slug": "countries",
+      "routeName": "countries.index",
+      "type": [
+        "admin",
+        "supervisor"
+      ]
+    }
+    
+  ]
+}
